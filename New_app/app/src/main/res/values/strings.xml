@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">New_app</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="xoros">XOROS</string>
+    <string name="no">No</string>
+    <string name="register">REGISTER</string>
+    <string name="surname">Surname</string>
+    <string name="surname_reg">Surname</string>
+    <string name="firstname">Firstname</string>
+    <string name="middle_initial">Middle Initial</string>
+    <string name="password_reg">Password</string>
+    <string name="save_btn">SAVE</string>
+    <string name="password_cnt">password_cnt</string>
+    <string name="email_address">Email Address</string>
+    <string name="surname_for_reg">Surname</string>
+    <string name="firstname_reg">Firstname</string>
+    <string name="middle_init_reg">Middle Initial</string>
+    <string name="pass_reg">Password</string>
+    <string name="user_reg">Username</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="user_for_reg">Username</string>
+    <string name="save_reg">SAVE</string>
+</resources>
