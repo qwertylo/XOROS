@@ -10,10 +10,16 @@
         android:background="@drawable/bg_gradient"
         android:gravity="center_horizontal"
 >
+    <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/xoros_white"
+    />
     <EditText
+            android:id="@+id/surname_register"
             android:layout_width="300dp"
             android:layout_height="40dp"
-            android:layout_marginTop="120dp"
             android:background="@drawable/edit_bg"
             android:inputType="text"
             android:drawableStart="@drawable/icon_for_textfield"
@@ -22,6 +28,7 @@
     />
     <EditText
             android:hint="@string/firstname_reg"
+            android:id="@+id/firstname_register"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
@@ -31,6 +38,7 @@
     />
     <EditText
             android:hint="@string/middle_init_reg"
+            android:id="@+id/middle_register"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:inputType="text"
@@ -40,6 +48,7 @@
     />
     <EditText
             android:hint="@string/user_reg"
+            android:id="@+id/user_register"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:inputType="text"
@@ -49,6 +58,7 @@
     />
     <EditText
             android:hint="@string/pass_reg"
+            android:id="@+id/pass_register"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
@@ -63,5 +73,6 @@
             android:text="@string/save_btn"
             android:textColor="@color/white"
             android:background="@drawable/btn_bg"
+            android:id="@+id/btn_save_register"
     />
 </LinearLayout>

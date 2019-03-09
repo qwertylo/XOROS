@@ -24,4 +24,9 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="user_for_reg">Username</string>
     <string name="save_reg">SAVE</string>
+    <string name="take_picture">TAKE A PICTURE</string>
+    <string name="xoros_home">XOROS_home</string>
+    <string name="scan">SCAN</string>
+    <string name="logout_home">LOGOUT</string>
+    <string name="result_captured">Result Captured</string>
 </resources>

@@ -10,40 +10,56 @@
         android:background="@drawable/bg_gradient"
         android:gravity="center_horizontal"
 >
+    <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/xoros_white"
+            android:contentDescription="@string/xoros_home"
+    />
+
    <EditText
+           android:id="@+id/email_id_reg"
            android:layout_width="250dp"
            android:layout_height="40dp"
            android:background="@drawable/edit_bg"
-           android:layout_marginTop="180dp"
+           android:layout_marginTop="20dp"
            android:hint="@string/email_address"
+           android:inputType="textEmailAddress"
            android:drawableStart="@drawable/icon_for_textfield"
    />
     <EditText
             android:hint="@string/user_for_reg"
+            android:id="@+id/user_reg"
             android:layout_width="250dp"
             android:layout_height="40dp"
             android:background="@drawable/edit_bg"
             android:layout_marginTop="20dp"
+            android:inputType="text"
             android:drawableStart="@drawable/icon_for_textfield"
     />
     <EditText
             android:hint="@string/new_password"
+            android:id="@+id/pass_reg"
             android:layout_width="250dp"
             android:layout_height="40dp"
             android:background="@drawable/edit_bg"
             android:layout_marginTop="20dp"
+            android:inputType="textPassword"
             android:drawableStart="@drawable/icon_for_textfield"
     />
     <EditText
             android:hint="@string/confirm_password"
+            android:id="@+id/cnf_pass_reg"
             android:layout_width="250dp"
             android:layout_height="40dp"
             android:background="@drawable/edit_bg"
             android:layout_marginTop="20dp"
+            android:inputType="textPassword"
             android:drawableStart="@drawable/icon_for_textfield"
     />
     <Button
-            android:id="@+id/btn_login"
+            android:id="@+id/btn_save"
             android:layout_width="180dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"

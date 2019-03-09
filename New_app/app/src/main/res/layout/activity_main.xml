@@ -11,20 +11,21 @@
         android:gravity="center_horizontal"
 >
     <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_marginTop="70dp"
-            android:src="@drawable/xoros_black"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/xoros_white"
             android:contentDescription="@string/xoros"
     />
     <EditText
             android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginTop="30dp"
             android:background="@drawable/edit_bg"
             android:drawableStart="@drawable/icon_for_user"
             android:hint="@string/username"
             android:inputType="textEmailAddress"
+            android:id="@+id/user_main"
+            android:layout_marginTop="20dp"
     ></EditText>
     <EditText
             android:layout_width="250dp"
@@ -34,6 +35,7 @@
             android:drawableStart="@drawable/icon_for_pass"
             android:hint="@string/password"
             android:inputType="textPassword"
+            android:id="@+id/pass_main"
 
 
 
@@ -60,6 +62,7 @@
                 android:text="@string/forgot_password"
                 android:textStyle="bold"
                 android:background="@color/transparent"
+                android:textColor="@color/black"
         />
         <Button
                 android:id="@+id/register_id"
@@ -68,6 +71,7 @@
                 android:text="@string/register"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
+                android:textColor="@color/black"
                 android:background="@drawable/transparent_bg"
         />
     </LinearLayout>

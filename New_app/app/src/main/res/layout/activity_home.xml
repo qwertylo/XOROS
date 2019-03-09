@@ -8,16 +8,48 @@
         tools:context=".HomeAct"
         android:orientation="vertical"
         android:background="@drawable/bg_gradient"
-        android:gravity="center_horizontal"
+
 >
-    <EditText
-            android:layout_width="250dp"
+    <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="180dp"
             android:layout_height="40dp"
-            android:layout_marginTop="250dp"
-            android:drawableStart="@drawable/icon_for_user"
-            android:background="@drawable/edit_bg"
-            android:inputType="text"
-            android:hint="@string/surname"
+            android:text="@string/logout_home"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+
+    />
+    <ImageView
+            android:layout_width="300dp"
+            android:src="@color/login_form_details_light"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/result_captured"
+            android:id="@+id/result_view"
+            android:layout_marginStart="55dp"
+    />
+
+    <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/take_picture"
+            android:textColor="@color/white"
+            android:id="@+id/cam_id"
+            android:background="@drawable/btn_bg"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"
+    />
+    <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/scan"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="110dp"
     />
 
 </LinearLayout>

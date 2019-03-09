@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         newLogin.setOnClickListener {
             val intent = Intent(this, HomeAct :: class.java)
             startActivity(intent)
+            pass_main.setText("")
+            user_main.setText("")
+            Toast.makeText(this, "Successfully Login", Toast.LENGTH_SHORT ).show()
         }
         val newReg : Button= findViewById(R.id.register_id)
         newReg.setOnClickListener {
